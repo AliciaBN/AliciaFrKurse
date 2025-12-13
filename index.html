@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cours de français avec Alicia</title>
+
+  <!-- Police élégante -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(135deg, #cce7ff, #ffe4e6); /* bleu clair vers rose doux */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .card {
+      background-color: #ffffff;
+      border-radius: 25px;
+      padding: 40px 45px;
+      max-width: 400px;
+      width: 90%;
+      text-align: center;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+      border-top: 8px solid #ff6fae; /* accent rose vif */
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 28px;
+      font-weight: 700;
+      color: #d6336c; /* rose vif */
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 20px;
+      color: #66b2ff; /* bleu clair pour le sous-titre */
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      font-size: 18px;
+      color: #333333;
+      margin-bottom: 30px;
+    }
+
+    li {
+      margin: 12px 0;
+    }
+
+    .price {
+      font-weight: 600;
+      color: #ff385c; /* rose foncé pour les prix */
+    }
+
+    .whatsapp {
+      margin-top: 20px;
+      font-size: 16px;
+      color: #333333;
+    }
+
+    .whatsapp span {
+      font-weight: 600;
+      color: #25D366; /* vert WhatsApp */
+    }
+
+    /* Optionnel : léger effet au survol des prix */
+    li:hover .price {
+      color: #ff6fae;
+      transition: color 0.3s ease;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <h1>Cours de français avec Alicia</h1>
+    <h2>Preise pro Einheit (45 Min.)</h2>
+    <ul>
+      <li>Solo-Kurs: <span class="price">18,5 €</span></li>
+      <li>Duo-Kurs: <span class="price">17 €</span></li>
+      <li>Trio-Kurs: <span class="price">15 €</span></li>
+    </ul>
+    <div class="whatsapp">
+      WhatsApp : <span>+33 7 83 62 89 97</span>
+    </div>
+  </div>
+</body>
+</html>
